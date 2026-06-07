@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE/editor state
+.idea/
+.vscode/
+.claude/
+
+# Data and model artifacts
+*.csv
+*.h5
+*.npz
+*.pt
+*.pth
+output/
+logs/
+exports/
+tools/
+
+# Paper, figures, and generated analysis artifacts
+Latex/
+figures/
+
+# OS files
+.DS_Store
+Thumbs.db
