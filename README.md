@@ -20,7 +20,7 @@ This project provides the PyTorch implementation of **PHSDGN**.
 
 The two datasets used in this project can be obtained from Figshare:
 
-<https://figshare.com/articles/dataset/Raw_Dataset_for_IEEE_24-Bus_System_Freuqency_Dynamics_Measurements/23576769>
+<https://github.com/rpglab/ML_Sync-Inertia-Estimation.git>
 
 After downloading, place the CSV files in the repository root or pass their
 paths with `--data_path`. The expected filenames used by the default scripts are:
