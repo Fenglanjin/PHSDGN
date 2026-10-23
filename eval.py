@@ -24,7 +24,7 @@ def get_args() -> argparse.Namespace:
     parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--num_workers", type=int, default=0)
     parser.add_argument("--acc_tol", type=float, default=0.05)
-    parser.add_argument("--eval_split", type=str, default="val", choices=["val", "test"])
+    parser.add_argument("--eval_split", type=str, default="test", choices=["val", "test"])
     parser.add_argument("--out_dir", type=str, default="./output")
     parser.add_argument("--model", type=str, default="PHSDGN")
     parser.add_argument("--F", type=int, default=2)
