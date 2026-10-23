@@ -56,7 +56,7 @@ Evaluate a trained checkpoint:
 ```bash
 python eval.py \
   --data_path train_3rd_wrv.csv \
-  --ckpt_path output/PHSDGN_train_3rd_wrv_SNR45db_DG1_PE1_SP1_best.pt \
+  --ckpt_path output/PHSDGN_train_3rd_wrv_DG1_PE1_SP1_best.pt \
   --eval_split val \
   --device cuda:0 \
   --batch_size 8
