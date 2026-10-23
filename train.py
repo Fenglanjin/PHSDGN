@@ -47,8 +47,9 @@ def get_args() -> argparse.Namespace:
     parser.add_argument("--patience", type=int, default=30)
     parser.add_argument("--acc_tol", type=float, default=0.05)
 
-    parser.add_argument("--train_ratio", type=float, default=0.80)
-    parser.add_argument("--val_ratio", type=float, default=0.20)
+    parser.add_argument("--train_ratio", type=float, default=0.70)
+    parser.add_argument("--val_ratio", type=float, default=0.10)
+    parser.add_argument("--test_ratio", type=float, default=0.20)
     parser.add_argument("--split_seed", type=int, default=2026)
     parser.add_argument("--split_shuffle", type=str2bool, default=False)
 
