@@ -64,5 +64,4 @@ python eval.py \
 
 ## Citation
 
-If you use this code, please cite the associated paper when it becomes
-available.
+Please cite the associated paper when it becomes available if you use this code.
